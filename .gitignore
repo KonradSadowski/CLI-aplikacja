@@ -1,0 +1,28 @@
+# Ignoruj pliki i katalogi generowane przez środowisko Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/*
+.cache/*
+
+# Ignoruj pliki wygenerowane przez IDE i edytory tekstu
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignoruj pliki i katalogi wygenerowane przez różne narzędzia
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ignoruj plik konfiguracyjny
+config.js
+
+# Ignoruj pliki tymczasowe i kopie zapasowe
+*.bak
+*.swp
+*.tmp
+
+# Ignoruj plik z danymi uwierzytelniającymi (na przykład .env)
+.env
