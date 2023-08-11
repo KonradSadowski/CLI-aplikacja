@@ -1,28 +1,27 @@
-# Ignoruj pliki i katalogi generowane przez środowisko Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-.yarn/*
-.cache/*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Ignoruj pliki wygenerowane przez IDE i edytory tekstu
+#Junk
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# Ignoruj pliki i katalogi wygenerowane przez różne narzędzia
-__pycache__/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Ignoruj plik konfiguracyjny
-config.js
-
-# Ignoruj pliki tymczasowe i kopie zapasowe
-*.bak
-*.swp
-*.tmp
-
-# Ignoruj plik z danymi uwierzytelniającymi (na przykład .env)
-.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
